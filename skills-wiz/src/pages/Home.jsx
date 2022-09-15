@@ -3,15 +3,20 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import PopUp from "../components/PopUp";
+import useSessionStorage from "../useSessionStorage";
 
 const Home = ()=>{
     const [timedPopup, setTimedPopup] = useState(false);
+    const [termsAccepted, setTermsAccepted] = useSessionStorage('terms', false);
+    
+    if (!termsAccepted){
+            setTimeout(()=>{
+                setTimedPopup(true);
+            }, 3000);
+        
+        setTermsAccepted(true);
+    }
 
-    useEffect(()=>{
-        setTimeout(()=>{
-            setTimedPopup(true);
-        }, 3000);
-    }, []);
 
     return(
         <div>
