@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
+import Results from "../components/Results";
+
 
 const Main = ()=>{
+
+    const [isSubmitted, setIsSubmitted] = useState(false);
+    const handleSubmit = ()=>{setIsSubmitted(true)}
     return(
+        ( !isSubmitted ?
         <div>
-            <p>Main Application</p>
+            input
+            <button onClick={handleSubmit}>Submit</button>
         </div>
+        :
+        <Results/>
+        )
     )
 }
 
