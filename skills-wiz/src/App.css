@@ -1,1 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+body {
+    background-color: #282828;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.app {
+    position: relative;
+    background-color: #f0f8ff;
+    height: 80vh;
+    width: 50vh;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hamburger {
+    height: 5vh;
+    border: none;
+    border-radius: 3px;
+    background-color: #ffffff50;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+    background-color: #dadada50;
+    border: 1px solid black;
+}
+
+.hamburger > span {
+    display: block;
+    height: .5vh;
+    width: 5vw;
+    background: #000000;
+    border-radius: 1vh;
+    margin: .5vh;
+}
+
+nav {
+    position: absolute;
+    top: 7vh;
+    right: 3vh;
+    border: 1px solid#000000;
+    width: 33%;
+}
+
+nav > ul {
+    list-style: none;
+}
+
+.nav-item:hover {
+    font-weight: bold;
+}

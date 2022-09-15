@@ -7,10 +7,12 @@ import Nav from "./Nav";
 
 const Layout = ()=> {
     return(
-        <div>
-            <Nav />
+        <div className="container">
+            <div className="app">
+                <Nav />
 
-            <Outlet />
+                <Outlet />
+            </div>
         </div>
     )
 }
