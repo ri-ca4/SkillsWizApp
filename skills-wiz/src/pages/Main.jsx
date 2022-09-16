@@ -17,8 +17,11 @@ const Main = ()=>{
 
     return(
         ( !isSubmitted ?
-        <div>
-            <input type={'number'} min='0' max='100' value={userInput} onChange={handleOnChange}/>
+        <div className="userInput">
+            <input type={'range'} step='5' min='0' max='100' value={userInput} onChange={handleOnChange} placeholder={userInput}/>
+            <br/>
+            <input type={'number'} min='0' max='100' value={userInput} onChange={handleOnChange} placeholder={userInput}/>
+            <br/>
             <button onClick={handleSubmit}>Submit</button>
         </div>
         :

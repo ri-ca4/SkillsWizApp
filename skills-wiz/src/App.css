@@ -1,1 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+body {
+    background-color: #282828;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.app {
+    position: relative;
+    background-color: #f0f8ff;
+    height: 90vh;
+    width: 50vw;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hamburger {
+    height: 27px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ffffff50;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.hamburger:hover,
+.hamburger:focus {
+    cursor: pointer;
+    background-color: #dadada50;
+    border: 1px solid black;
+}
+
+.hamburger > span {
+    display: block;
+    height: 3px;
+    width: 30px;
+    background: #000000;
+    border-radius: 3px;
+    margin: 3px;
+}
+
+nav {
+    position: absolute;
+    top: 37px;
+    right: 10px;
+    border: 1px solid#000000;
+    width: 33%;
+}
+
+nav > ul {
+    list-style: none;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    font-weight: bold;
+}
