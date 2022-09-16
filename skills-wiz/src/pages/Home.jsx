@@ -3,6 +3,8 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import PopUp from "../components/PopUp";
 import useSessionStorage from "../hooks/useSessionStorage";
+import "../App.css"
+import "./css/home.css"
 
 const Home = ()=>{
     const [timedPopup, setTimedPopup] = useState(false);
@@ -18,9 +20,8 @@ const Home = ()=>{
 
 
     return(
-        <div>
-            <p>home page</p>
-            <button><Link to='/main_app'>Start</Link></button>
+        <div className="homepage">
+            <Link to='/main_app'><button>Start</button></Link>
             <PopUp trigger={timedPopup} setTrigger={setTimedPopup}>
                 <h3>Pop-up</h3>
             </PopUp>

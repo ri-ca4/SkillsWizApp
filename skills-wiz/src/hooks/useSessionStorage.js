@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const getSessionStorage= (key, defaultValue)=>{
     const stored = sessionStorage.getItem(key);

@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react'
 
-const Resources = ()=>{
-    return(
-        <div>
-            <p>resources page</p>
-        </div>
-    )
+const Resources = ()=> {
+  return (
+    <div>
+      resources page
+    </div>
+  )
 }
 
-export default Resources;
+export default Resources

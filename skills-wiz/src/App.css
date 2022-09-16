@@ -1,8 +1,44 @@
+:root {
+    --white: #ffffff;
+    --offWhite: #f0f8ff;
+    --transWhite: #ffffff50;
+    --black: #000000;
+    --offBlack: #282828;
+    --transBlack: #00000050;
+    --darkBlue: #336699;
+    --darkTransBlue: #33669950;
+    --lightBlue: #99ccff;
+    --lightRed: #cd5c5c;
+    --lightYellow: #f0e68c;
+    --lightGreen: #7fffd4;
+    --transparent: #00000000;
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: 3px solid var(--black);
+    border-radius: 15px;
+    background: var(--offWhite);
+    color: var(--darkBlue);
+}
+
+button:hover,
+button:focus {
+    background: var(--darkBlue);
+    color: var(--offWhite);
+    cursor: pointer;
+}
+
+/*LAYOUT*/
 
 body {
     background-color: #282828;
@@ -18,7 +54,7 @@ body {
 
 .app {
     position: relative;
-    background-color: #f0f8ff;
+    background-color: var(--offWhite);
     height: 90vh;
     width: 50vw;
     border-radius: 10px;
@@ -31,15 +67,14 @@ body {
     overflow-x: auto;
 }
 
-a {
-    text-decoration: none;
-}
+
+/*NAVIGATION*/
 
 .hamburger {
     height: 27px;
     border: none;
     border-radius: 3px;
-    background-color: #ffffff50;
+    background-color: var(--transWhite);
     position: absolute;
     top: 10px;
     right: 10px;
@@ -48,15 +83,15 @@ a {
 .hamburger:hover,
 .hamburger:focus {
     cursor: pointer;
-    background-color: #dadada50;
-    border: 1px solid black;
+    background-color: var(--white);
+    border: 1px solid var(--darkBlue);
 }
 
 .hamburger > span {
     display: block;
     height: 3px;
     width: 30px;
-    background: #000000;
+    background: var(--darkBlue);
     border-radius: 3px;
     margin: 3px;
 }
@@ -66,11 +101,11 @@ nav {
     top: 37px;
     right: 10px;
     width: 33%;
-    background-color: #ffffff;
+    background-color: var(--white);
 }
 
 nav a {
-    color: #000000
+    color: var(--darkBlue)
 }
 
 nav > ul {
