@@ -5,8 +5,8 @@ import './css/results.css'
 const Buttons = ()=>{
   return(
   <div className='buttons'>
-    <button className='home'><Link to='/'>Home</Link></button>
-    <button className='skills'><Link to='/skills'>See Skills</Link></button>
+    <Link to='/'><button className='btn'>Home</button></Link>
+    <Link to='/skills'><button className='btn'>See Skills</button></Link>
   </div>
   )
 }

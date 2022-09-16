@@ -7,7 +7,12 @@
     justify-content: center;
     padding: 10px;
     text-align: center;
-    overflow-y: auto;
+}
+
+.results-container > ul {
+    list-style: none;
+    text-align: justify;
+    font-weight: bold;
 }
 
 .ieresults{
@@ -22,6 +27,9 @@
     background-color: #cd5c5c;
 }
 
+.skill {
+    font-style: italic;
+}
 
 /*MINDFULNESS SECTION*/
 .mindfulness{
@@ -53,14 +61,24 @@
 }
 
 
-
+/*BUTTONS*/
 
 .buttons {
     width: 100%;
     padding: 10px;
 }
 
-.buttons > button {
+.buttons button {
     width: 50%;
     height: 37px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #ffffff00;
+    font-weight: bold;
+}
+
+.buttons button:hover,
+.buttons button:focus{
+    cursor: pointer;
+    border: 2px solid black;
 }

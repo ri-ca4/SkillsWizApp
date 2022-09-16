@@ -13,18 +13,26 @@ const Links = (props)=>{
         ( navVisibility &&
         <nav>
             <ul>
+            <Link to='/'>
                 <li className="nav-item" onClick={handleClick}>
-                    <Link to='/'>Home</Link>
+                    Home
                 </li>
+            </Link>
+            <Link to='/about'>
                 <li className="nav-item" onClick={handleClick}>
-                    <Link to='/about'>About</Link>
+                    About
                 </li>
+            </Link>
+            <Link to='/skills'>
                 <li className="nav-item" onClick={handleClick}>
-                    <Link to='/skills'>Skills</Link>
+                    Skills
                 </li>
+            </Link>
+            <Link to='/resources'>
                 <li className="nav-item" onClick={handleClick}>
-                    <Link to='/resources'>Resources</Link>
+                    Resources
                 </li>
+            </Link>
             </ul>
         </nav>
         )
