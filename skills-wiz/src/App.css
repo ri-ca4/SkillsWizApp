@@ -25,6 +25,12 @@ body {
     padding: 10px;
 }
 
+.app-inner{
+    height: 100%;
+    width: 100%;
+    overflow-x: auto;
+}
+
 a {
     text-decoration: none;
 }
