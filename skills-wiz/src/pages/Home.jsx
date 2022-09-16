@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import PopUp from "../components/PopUp";
 import useSessionStorage from "../hooks/useSessionStorage";
 import "../App.css"
+import "./css/home.css"
 
 const Home = ()=>{
     const [timedPopup, setTimedPopup] = useState(false);
@@ -20,7 +21,6 @@ const Home = ()=>{
 
     return(
         <div className="homepage">
-            <p>home page</p>
             <Link to='/main_app'><button>Start</button></Link>
             <PopUp trigger={timedPopup} setTrigger={setTimedPopup}>
                 <h3>Pop-up</h3>
