@@ -18,6 +18,7 @@ const EmotionRegResults = () => {
           <li><span className="skill">Cope Ahead</span>- prepare for difficult situations</li>
           <li><span className="skill">PLEASE</span>- increase biological resilience</li>
         </ul>
+        <br/>
         <h3>Change Emotions- use when needed</h3>
         <ul>
           <li><span className="skill">Model of emotions</span>- figure out emotion, urge and intensity</li>
@@ -25,6 +26,7 @@ const EmotionRegResults = () => {
           <li><span className="skill">Opposite Action</span>- change emotions via behavior</li>
           <li><span className="skill">Problem Solving</span>- change a situation</li>
         </ul>
+        <br/>
         <h3>Accept Emotions- use often</h3>
         <ul>
           <li><span className="skill">Mindfullness of current emotion</span></li>
