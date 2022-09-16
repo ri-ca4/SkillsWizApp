@@ -25,6 +25,12 @@ body {
     padding: 10px;
 }
 
+.app-inner{
+    height: 100%;
+    width: 100%;
+    overflow-x: auto;
+}
+
 a {
     text-decoration: none;
 }
@@ -59,12 +65,18 @@ nav {
     position: absolute;
     top: 37px;
     right: 10px;
-    border: 1px solid#000000;
     width: 33%;
+    background-color: #ffffff;
+}
+
+nav a {
+    color: #000000
 }
 
 nav > ul {
     list-style: none;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 .nav-item:hover,

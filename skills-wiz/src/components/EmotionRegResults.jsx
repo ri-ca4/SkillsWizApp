@@ -1,10 +1,11 @@
 import React from 'react'
 import ResultsFooter from './ResultsFooter'
+import './css/results.css'
 
 const EmotionRegResults = () => {
   return (
-    <div className='results-container'>
-      <div className='erresults'>
+    <div>
+      <div className='results-container erresults'>
         <h1>Emotion Regulation:</h1>
         <h2>Increase resilience</h2>
         <h2>Change emotions</h2>

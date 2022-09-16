@@ -1,10 +1,11 @@
 import React from 'react'
 import ResultsFooter from './ResultsFooter'
+import './css/results.css'
 
 const DistressTolResults = () => {
   return (
-    <div className='results-container'>
-      <div className='dtresults'>
+    <div>
+      <div className='results-container dtresults'>
         <h1>Distress Tolerance:<br/>
             Crisis Survival Strategies</h1>
         <h2>Emotions are really high</h2>
