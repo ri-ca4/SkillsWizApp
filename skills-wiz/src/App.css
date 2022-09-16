@@ -1,8 +1,35 @@
+:root {
+    --white: #ffffff;
+    --offWhite: #f0f8ff;
+    --black: #000000;
+    --offBlack: #282828;
+    --transBlack: #00000050;
+    --darkBlue: #336699;
+    --darkTransBlue: #33669950;
+    --lightBlue: #99ccff;
+    --lightRed: #cd5c5c;
+    --lightYellow: #f0e68c;
+    --lightGreen: #7fffd4;
+    --transparent: #00000000;
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: 3px solid var(--darkBlue);
+    border-radius: 15px;
+    background: var(--white);
+    color: var(--darlBlue);
+}
+/*LAYOUT*/
 
 body {
     background-color: #282828;
@@ -31,9 +58,8 @@ body {
     overflow-x: auto;
 }
 
-a {
-    text-decoration: none;
-}
+
+/*NAVIGATION*/
 
 .hamburger {
     height: 27px;
@@ -83,3 +109,6 @@ nav > ul {
 .nav-item:focus {
     font-weight: bold;
 }
+
+
+/*HOMEPAGE*/
