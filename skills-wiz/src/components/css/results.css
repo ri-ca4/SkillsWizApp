@@ -43,6 +43,30 @@
     font-style: italic;
 }
 
+/*DISTRESS TOLERANCE*/
+.getHelp {
+    border: 3px solid var(--lightRed);
+    padding: 10px;
+    border-radius: 15px;
+    color: var(--lightRed)
+}
+
+.getHelp button{
+    padding: 5px;
+    width: 25%;
+    height: fit-content;
+    border-color: var(--lightRed);
+    color: var(--lightRed);
+    font-size: 1.2em;
+}
+
+.getHelp button:hover,
+.getHelp button:focus{
+    background-color: var(--lightRed);
+    color: var(--white)
+}
+
+
 /*MINDFULNESS SECTION*/
 .mindfulness{
     background-color: var(--offWhite);
