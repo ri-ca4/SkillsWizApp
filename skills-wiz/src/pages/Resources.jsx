@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './css/pages.css';
 
 const Resources = ()=> {
   return (
