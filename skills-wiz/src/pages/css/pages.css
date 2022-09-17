@@ -9,7 +9,7 @@
     background-image: url('../../assets/full-color.png');
     background-repeat: no-repeat;
     background-position: 50% 40%;
-    background-size: 25vw 25vw;
+    background-size: 320px 320px;
 }
 
 .homepage button{
@@ -19,12 +19,6 @@
     height: 40px;
     width: 60%;
     font-size: 2em;
-}
-
-@media screen and (max-width: 600px){
-    .homepage{
-        background-size: contain;
-    }
 }
 
 /*SKILLS PAGE*/
@@ -145,3 +139,15 @@
 
 /*ABOUT SECTION*/
 
+@media screen and (max-width: 600px){
+    .homepage{
+        background-position: 50% 40%;
+        background-size: 100vw;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-height: 800px) {
+    .homepage button{
+        bottom: 90px;
+    }
+}
