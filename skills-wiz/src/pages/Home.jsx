@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Disclaimer from "../components/Disclaimer";
 import PopUp from "../components/PopUp";
 import useSessionStorage from "../hooks/useSessionStorage";
 import "./css/pages.css"
@@ -12,7 +13,7 @@ const Home = ()=>{
     if (!termsAccepted){
             setTimeout(()=>{
                 setTimedPopup(true);
-            }, 3000);
+            }, 500);
         
         setTermsAccepted(true);
     }
@@ -22,7 +23,7 @@ const Home = ()=>{
         <div className="homepage">
             <Link to='/main_app'><button>Start</button></Link>
             <PopUp trigger={timedPopup} setTrigger={setTimedPopup}>
-                <h3>Pop-up</h3>
+                <Disclaimer />
             </PopUp>
         </div>
     )
