@@ -96,9 +96,10 @@
     font-size: 1.5em;
 }
 
-/*ABOUT PAGE*/
+/*ABOUT and RESORECES PAGE*/
 
-.aboutPage{
+.aboutPage,
+.resourcesPage{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,6 +107,8 @@
     color: var(--darkBlue);
     text-align: center;
 }
+
+/*ABOUT PAGE*/
 
 .aboutPage button{
     margin: 10px;
@@ -115,3 +118,12 @@
 }
 
 /*RESOURCES PAGE*/
+
+.resourcesPage a{
+    color: var(--darkBlue)
+}
+
+.resourcesPage a:hover,
+.resourcesPage a:focus{
+    text-decoration: underline;
+}
