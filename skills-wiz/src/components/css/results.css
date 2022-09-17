@@ -37,9 +37,6 @@
 
 .dtresults h1{
     background-color: var(--lightRed);
-    width: 100%;
-    padding: 10px;
-    outline: 1px solid var(--black);
 }
 
 .skill {

@@ -31,6 +31,7 @@ const Resources = ()=> {
         <h2>This information was taken from NAMI.org, <br/>
             if you want more details please visit: <br/>
             <a href="https://www.nami.org/help">www.nami.org/help</a></h2>
+            <p>NAMI is not affiliated with this app or it's creator</p>
       </div>
     </div>
   )
