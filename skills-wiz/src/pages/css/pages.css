@@ -1,5 +1,34 @@
 @import '../../App.css';
 
+
+/*HOME PAGE*/
+.homepage{
+    width: 100%;
+    height: 100%;
+    background-color: var(--darkBlue);
+    background-image: url('../../assets/full-color.png');
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+    background-size: 25vw 25vw;
+}
+
+.homepage button{
+    position: absolute;
+    bottom: 50px;
+    right: 20%;
+    height: 40px;
+    width: 60%;
+    font-size: 2em;
+}
+
+@media screen and (max-width: 600px){
+    .homepage{
+        background-size: contain;
+    }
+}
+
+/*SKILLS PAGE*/
+
 .skillsPage{
     display: flex;
     flex-direction: column;
@@ -66,3 +95,23 @@
     height: 37px;
     font-size: 1.5em;
 }
+
+/*ABOUT PAGE*/
+
+.aboutPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--darkBlue);
+    text-align: center;
+}
+
+.aboutPage button{
+    margin: 10px;
+    padding: 3px;
+    height: 37px;
+    font-size: 1.5em;
+}
+
+/*RESOURCES PAGE*/

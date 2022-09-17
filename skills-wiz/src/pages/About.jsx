@@ -1,9 +1,10 @@
 import React from "react";
+import './css/pages.css';
 
 const About = ()=>{
     return(
-        <div>
-            <p>about page</p>
+        <div className="aboutPage">
+            
         </div>
     )
 }

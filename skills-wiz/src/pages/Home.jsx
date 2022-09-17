@@ -3,8 +3,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import PopUp from "../components/PopUp";
 import useSessionStorage from "../hooks/useSessionStorage";
-import "../App.css"
-import "./css/home.css"
+import "./css/pages.css"
 
 const Home = ()=>{
     const [timedPopup, setTimedPopup] = useState(false);

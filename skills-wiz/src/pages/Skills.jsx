@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './css/skills.css';
+import './css/pages.css';
 import {Link} from "react-router-dom";
 
 const Mindfulness = (props)=>{
