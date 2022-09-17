@@ -1,8 +1,10 @@
 import React from 'react'
 import ResultsFooter from './ResultsFooter'
 import './css/results.css'
+import {Link} from 'react-router-dom'
 
 const DistressTolResults = () => {
+
   return (
     <div>
       <div className='results-container dtresults'>
@@ -10,6 +12,11 @@ const DistressTolResults = () => {
             Crisis Survival Strategies</h1>
         <h2>Emotions are really high</h2>
         <h2>You can't change the situation</h2>
+        <div className='getHelp'>
+          <h3>If you are in a crisis, please reach out for professional help</h3>
+          <br/>
+          <Link to='/resources'><button>Resources</button></Link>
+        </div>
         <h3>General Examples:</h3>
         <ul>
           <li>It's hard to think or focus- <span className="skill">TIPP: ice</span></li>
