@@ -118,3 +118,10 @@ nav > ul {
 .nav-item:focus {
     font-weight: bold;
 }
+
+ @media screen and (max-width:600px){
+    .app{
+        height: 100%;
+        width: 100%;
+    }
+ }
