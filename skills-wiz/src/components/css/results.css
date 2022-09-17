@@ -54,6 +54,7 @@
 .getHelp button{
     padding: 5px;
     width: 25%;
+    min-width: fit-content;
     height: fit-content;
     border-color: var(--lightRed);
     color: var(--lightRed);
