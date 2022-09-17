@@ -1,0 +1,68 @@
+@import '../../App.css';
+
+.skillsPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    text-align: center;
+}
+
+.selectSkill {
+    border-radius: 15px;
+}
+
+.selectSkill h3{
+    padding: 5px;
+    -webkit-text-stroke:2px var(--black);
+    -webkit-text-fill-color: var(--white);
+    border: 2px solid var(--black);
+    border-radius: 15px;
+    font-size: 1.5em;
+}
+
+.selectSkill:hover,
+.selectSkill:focus{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.selectSkill.mind{
+    background-color: var(--lightBlue);
+}
+
+.selectSkill.inte{
+    background-color: var(--lightGreen);
+}
+
+.selectSkill.emot{
+    background-color: var(--lightYellow);
+}
+
+.selectSkill.dist{
+    background-color: var(--lightRed);
+}
+
+.viewSkills{
+    color: var(--darkBlue);
+}
+
+.viewSkills h1, 
+.viewSkills h2,
+.viewSkills h3{
+    text-align: center;
+}
+
+.viewSkills p{
+    text-align: justify;
+}
+
+.skillsPage button {
+    margin: 10px;
+    padding: 3px;
+    height: 37px;
+    font-size: 1.5em;
+}

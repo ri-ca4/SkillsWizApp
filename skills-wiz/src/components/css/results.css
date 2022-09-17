@@ -3,30 +3,43 @@
 .results-container{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
     align-items: center;
     justify-content: center;
-    padding: 10px;
     text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    color: var(--darkBlue);
 }
 
 .results-container > ul {
     list-style: none;
-    text-align: justify;
+    text-align: left;
     font-weight: bold;
 }
 
-.ieresults{
-    background-color: var(--lightGreen) ;
+.results-container h1 {
+    width: 100%;
+    padding: 10px;
+    -webkit-text-stroke:2px var(--black);
+    -webkit-text-fill-color: var(--white);
+    border: 2px solid var(--black);
+    border-radius: 15px;
 }
 
-.erresults{
-    background-color: var(--lightYellow) ;
+.ieresults h1{
+    background-color: var(--lightGreen);
 }
 
-.dtresults{
+.erresults h1{
+    background-color: var(--lightYellow);
+}
+
+.dtresults h1{
     background-color: var(--lightRed);
+    width: 100%;
+    padding: 10px;
+    outline: 1px solid var(--black);
 }
 
 .skill {
@@ -38,6 +51,7 @@
     background-color: var(--offWhite);
     width: 100%;
     text-align: center;
+    color: var(--darkBlue);
 }
 
 .mindfulness > h1 {
