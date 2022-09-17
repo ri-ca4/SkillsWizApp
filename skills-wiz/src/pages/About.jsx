@@ -28,7 +28,7 @@ const About = ()=>{
                 <p>ri-ca4 is a web developer with a special interest in creating websites
                     and applications centered around mindfulness and mental health. They 
                     went through a DBT program themselves which changed their life, and now
-                    hopes to help others like them.
+                    they hope to help others like them.
                 </p>
             </div>
         </div>
