@@ -22,15 +22,15 @@ const Resources = ()=> {
       </div>
       <div className='resourcesSection'>
         <h2>If you need <em><strong>immediate help in a crisis:</strong></em></h2>
-        <p>National Suicide Prevention Lifeline: 800-273-TALK (8255)</p>
-        <p>Crisis Text Line: text NAMI to 741-741</p>
+        <p>National Suicide Prevention Lifeline: 9-8-8</p>
+        <p>Crisis Text Line: text HOME to 741-741</p>
         <p>National Domestic Violence Hotline: 800-799-SAFE (7233)</p>
         <p>National Sexual Assault Hotline: 800-656-HOPE (4673)</p>
       </div>
       <div className='moreInfo'>
         <h2>This information was taken from NAMI.org, <br/>
             if you want more details please visit: <br/>
-            <a href="https://www.nami.org/help">www.nami.org/help</a></h2>
+            <a href="https://www.nami.org/support-education/nami-helpline/">www.nami.org/support-education/nami-helpline/</a></h2>
             <p>NAMI is not affiliated with this app or it's creator</p>
       </div>
     </div>
